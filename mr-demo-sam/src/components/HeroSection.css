@@ -1,0 +1,84 @@
+.hero-container {
+  background: url("/src/images/banner.png") center top/cover no-repeat;
+  height: 630px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1); */
+  object-fit: contain;
+  position: relative;
+}
+.description {
+  background: url("/src/images/flag.webp") left top/contain no-repeat;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding-left: 82px;
+  margin-bottom: 21px;
+}
+.description p {
+  font-size: 18px;
+}
+.hero-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0 16px;
+  font-size: 38px;
+  line-height: 34px;
+  letter-spacing: 1px;
+  color: #141414;
+}
+.account {
+  width: 50%;
+  background: #fff;
+  height: 100%;
+  position: absolute;
+  left: 7%;
+}
+.content {
+  width: 89%;
+  margin: 46px auto;
+}
+/* .form-container {
+  width: 100%;
+}
+.register-form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-field {
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  width: 49%;
+}
+.form-container input {
+  background: #f7f7f7;
+}
+.form-container button {
+  width: 106px;
+  margin: 0 auto;
+  background: #4cb9a3;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.form-container button:disabled {
+  cursor: default;
+} */
+
+@media screen and (max-width: 960px) {
+  .hero-heading {
+    padding: 12px 0 8px;
+    font-size: 19px;
+    line-height: 17px;
+    letter-spacing: 1px;
+  }
+}

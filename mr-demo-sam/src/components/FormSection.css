@@ -1,0 +1,31 @@
+.form-container {
+  width: 100%;
+}
+.register-form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-field {
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  width: 49%;
+}
+.form-container input {
+  background: #f7f7f7;
+}
+.form-container button {
+  width: 106px;
+  margin: 0 auto;
+  background: #4cb9a3;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.form-container button:disabled {
+  cursor: default;
+}
